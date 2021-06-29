@@ -1,0 +1,69 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.container{
+    border: 2px solid wheat;
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    min-width: 450px;
+    padding: 30px 40px;
+}
+ 
+#budgetcalc{
+    background-color: whitesmoke;
+    padding: 30px 20px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow:  0 15px 30px rgba(0,0,0,0.3);
+    
+}
+
+#bugetcalc input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    position: relative;
+}
+#budgetcalc select{
+    float:inline-start;
+}
+#budgetcalc button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45%;
+    border-radius: 5px;
+    border: none;
+    background-color: #009ffd;
+    cursor: pointer;
+}
+
+#piechart{
+position: relative;
+width: 400px;
+height: 400px;
+margin-top: 60px;
+padding: 30px 20px;
+border-radius: 10px;
+display:none;
+}
+
+#download{
+    background-color: #009ffd;
+    cursor: pointer;
+    border-radius: 5px;
+}
